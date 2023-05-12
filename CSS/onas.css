@@ -1,0 +1,29 @@
+body,div,p,a,button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.s1 {
+    text-align: center;
+    font-size: 240%;
+}
+.s2 {
+    font-size: 150%;
+}
+.s3 {
+    text-align: center;
+    font-size: 240%;
+}
+.onas {
+    padding-left: 40px;
+    color: #555555;;
+}
+b {
+    font-size: 100%;
+}
+b, strong { font-weight: bold; }
+.fot {
+    text-align: center;
+    padding: 50px;
+}

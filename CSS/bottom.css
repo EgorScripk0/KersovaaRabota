@@ -1,0 +1,70 @@
+.gl:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: 0.7s ;
+}
+body,div,p,a,button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.gl:hover:after,
+.gl:focus:after {
+	width: 70px;
+}
+.ns:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px;
+	background-color: #ffffff;
+	content: "";
+	transition: 0.7s ; 
+}
+.ns:hover:after,
+.ns:focus:after {
+	width: 50px; 
+}
+.ob:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: 0.7s ; 
+}
+.ob:hover:after,
+.ob:focus:after {
+	width: 133px; 
+}
+
+.rd:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: 0.7s ; 
+}
+.rd:hover:after,
+.rd:focus:after {
+	width: 117px; 
+}
+
+.pg:after {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px; 
+	background-color: #ffffff; 
+	content: "";
+	transition: 0.7s ; 
+}
+.pg:hover:after,
+.pg:focus:after {
+	width: 63px; 
+}

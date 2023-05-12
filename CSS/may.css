@@ -1,0 +1,57 @@
+/* Стили для кнопок */
+.btnn {
+    background-color: rgb(25, 135, 84);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+#cntr {
+    text-align: center;
+}
+  /* Кнопки при наведении */
+  .btnn:hover {
+    background-color: rgba(25, 135, 84, 0.87);
+    transform: scale(1.05);
+  }
+
+  /* Кнопки при нажатии */
+  .btnn:active {
+    background-color: rgba(25, 135, 84, 0.87);
+    transform: scale(0.95);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  /* Заголовок */
+  h1 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* Поле ввода */
+  input[type="text"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+
+  /* Разделительная линия */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }

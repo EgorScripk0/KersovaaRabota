@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bottom.css">
+    <link rel="stylesheet" href="CSS/vhod.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>Вход</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="padding-left: 10px;"><img src="image/Flag.png" style="width: 50px; height: 30px; padding-right: 10px;">ЦМИТ Выборг</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top: 5px;">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link gl" aria-current="page" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ns" href="onas.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ob" href="obr.html">Обратная связь</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rd" href="may.html">Радиостанции</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pg" aria-current="page" href="pogoda.html">Погода</a>
+          </li>
+        </ul>
+        <div style="padding-right: 15px;">
+          <a class="btn btn-outline-success" type="submit" href="reg.html">Создать аккаунт</a>
+        </div>
+        <div>
+          <a class="btn btn-outline-success" type="submit" href="vhod.html">Вход</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <form action="/action_page.php">
+    <div class="container1">
+      <h1>Вход</h1>
+      <hr>
+      <label for="email"><b>Эл. Почта</b></label>
+      <input type="text" placeholder="Введите эл. почту" name="email" required>
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введите пароль" name="psw" required>
+      <hr>
+      <input type="checkbox"><label style="padding-left: 10px;">Запомнить пароль?</label>
+      <button type="submit" class="registerbtn">Войти</button>    
+    </div>
+    <div class="container signin">
+      <p>У вас нет аккаунта? <a href="reg.html">Регистрация</a>.</p>
+    </div>
+  </form>    
+  <footer class="bg-dark text-center text-white" style="max-width: 100%;">
+        <div class="container p-4">
+          <div style="padding-bottom: 50px; padding-top: 20px;">
+            <a href="" style="text-decoration:none; padding-right: 20px;">
+              <img src="image/alo.png" alt="" style="width: 150px;">
+            </a>
+            <a href="" style="text-decoration:none; padding-right: 20px;">
+              <img src="image/mb.png" alt="" style="width: 150px;">
+            </a>
+            <a href="" style="text-decoration:none;">
+              <img src="image/mer.png" alt="" style="width: 150px;">
+            </a>
+          </div>
+          <section class="">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <img src="image/CMIT.png" alt="">
+                <section class="mb-4" style="padding: 15px;">
+                  <a class="" href="index.html" role="button"><img src="image/Vector/free-icon-home-6800345.png" style="width: 10%;"></a>
+                  <a class="" href="https://www.gosuslugi.ru/" role="button"><img src="image/Vector/gos_logo_mobile.png" style="width: 10%;"></a>
+                    <a class="" href="https://www.google.com/intl/ru/gmail/about/" role="button"><img src="image/Vector/free-icon-email-4698066.png" style="width: 10%;"></a>
+                    <a class="" href="https://web.telegram.org/z/" role="button"><img src="image/Vector/free-icon-telegram-3820331.png" style="width: 10%;"></a>
+                </section>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Курсы</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Столярное мастерство</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Робототехника</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">3D-моделирование</a>
+                  </li> 
+                  <li>
+                    <a href="#!" class="text-white">Инновации для малышей</a>
+                  </li> 
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">МАСТЕР-КЛАССЫ</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Профессиональная подготовка</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Прототипирование</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Токарное мастерство </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">Лазерная резка и гравировка</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">ИНФОРМАЦИЯ</h5>
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">Станки и оборудование</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">+79819591211</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">cmitvbg@gmail.com</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">г. Выборг, Сборная 4</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <img src="image/Vector/Rectangle.png" style="width: 60%; height: 1px;">
+        <div class="text-center p-3">
+          © 2022 ЦМИТ Выборг.
+        </div>
+  </footer>    
+</body>
+</html>
